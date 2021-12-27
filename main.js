@@ -10,7 +10,7 @@ const readImage = path => {
 }
 
 const run = async () => {
-    const model = await tf.loadLayersModel('https://127.0.0.1:8080/model/model.json');
+    const model = await tf.loadLayersModel('https://raw.githubusercontent.com/FranciscoOssian/teste_ml/master/model/model.json');
     //console.log(await tf.loadLayersModel('https://raw.githubusercontent.com/infinitered/nsfwjs-mobile/master/nsfw-model.json'))
    // const imageTensorTest = readImage('/home/franciscoossian/repos/teste_ml/data/t.png')
   //  const predict = await model.predict(imageTensorTest)
