@@ -1,0 +1,9 @@
+{
+  "name": "teste_ml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.12.0"
+  }
+}
